@@ -19,8 +19,6 @@
 
 👥 **Authors:** Tairan Huang, Siyu Shang, Qiang Chen, Xiu Su, Yi Chen.
 
-The paper calls the framework **FlowAgent**; this repository retains the FlowAgent name used by its implementation.
-
 FlowAgent helps an LLM choose the next executable tool call in a long-horizon task. A flow-matching planner proposes a state-conditioned prior, the LLM turns that signal into a strict JSON action, and a grounding layer fills arguments from the current tool state and feedback.
 
 ## 🖼️ Method at a glance
