@@ -48,7 +48,7 @@ FlowAgent helps an LLM choose the next executable tool call in a long-horizon ta
 ### 1. Install
 
 ```bash
-git clone https://github.com:Tairan-Terrian/FlowAgent.git
+git clone https://github.com/Tairan-Terrian/FlowAgent.git
 cd FlowAgent
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\Activate.ps1
