@@ -13,7 +13,7 @@
   <a href="#-citation">Citation</a>
 </p>
 
-> **Accepted at NeurIPS 2026.**
+> **🎉🎉🎉🎉 Our FlowAgent has been Accepted at NeurIPS 2026. 🎉🎉🎉🎉**
 
 📄 **Paper:** [Tools as Continuous Flow for Evolving Agentic Reasoning](https://arxiv.org/abs/2605.07339)
 
