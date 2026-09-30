@@ -1,18 +1,14 @@
-# FlowPlanner
+# Tools as Continuous Flow for Evolving Agentic Reasoning
 
 <p align="center">
-  <strong>Feedback-conditioned executable tool-use planning</strong>
-</p>
-
-<p align="center">
-  <a href="https://github.com/ssy166/FlowPlan"><img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github" alt="GitHub"></a>
+  <a href="https://github.com/Tairan-Terrian/FlowAgent"><img src="https://img.shields.io/badge/Code-GitHub-181717?logo=github" alt="GitHub"></a>
   <img src="https://img.shields.io/badge/NeurIPS-2026%20Accepted-b31b1b" alt="NeurIPS 2026 Accepted">
   <img src="https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white" alt="Python 3.10+">
 </p>
 
 <p align="center">
   <a href="#-quick-start">Quick start</a> ·
-  <a href="#-what-is-flowplanner">Overview</a> ·
+  <a href="#-what-is-FlowAgent">Overview</a> ·
   <a href="#-reproduce-results">Reproduce</a> ·
   <a href="#-citation">Citation</a>
 </p>
@@ -23,27 +19,27 @@
 
 👥 **Authors:** Tairan Huang, Siyu Shang, Qiang Chen, Xiu Su, Yi Chen.
 
-The paper calls the framework **FlowAgent**; this repository retains the FlowPlanner name used by its implementation.
+The paper calls the framework **FlowAgent**; this repository retains the FlowAgent name used by its implementation.
 
-FlowPlanner helps an LLM choose the next executable tool call in a long-horizon task. A flow-matching planner proposes a state-conditioned prior, the LLM turns that signal into a strict JSON action, and a grounding layer fills arguments from the current tool state and feedback.
+FlowAgent helps an LLM choose the next executable tool call in a long-horizon task. A flow-matching planner proposes a state-conditioned prior, the LLM turns that signal into a strict JSON action, and a grounding layer fills arguments from the current tool state and feedback.
 
 ## 🖼️ Method at a glance
 
 <p align="center">
-  <img src="figures/motivation.png" alt="FlowPlanner motivation" width="100%">
+  <img src="figures/motivation.png" alt="FlowAgent motivation" width="100%">
 </p>
 
 <p align="center"><em>Why step-wise tool selection fails without a global plan.</em></p>
 
 <p align="center">
-  <img src="figures/framework.png" alt="FlowPlanner framework" width="100%">
+  <img src="figures/framework.png" alt="FlowAgent framework" width="100%">
 </p>
 
 <p align="center"><em>How planning, execution, grounding, and stopping fit together.</em></p>
 
 The original full-resolution figures are available as [motivation.pdf](figures/motivation.pdf) and [framework.pdf](figures/framework.pdf).
 
-## ✨ What is FlowPlanner?
+## ✨ What is FlowAgent?
 
 - 🧭 **Plan globally:** a continuous flow-matching prior represents useful tool paths.
 - 🤖 **Execute locally:** an LLM emits the next tool call or a stop decision as JSON.
@@ -55,8 +51,8 @@ The original full-resolution figures are available as [motivation.pdf](figures/m
 ### 1. Install
 
 ```bash
-git clone https://github.com/ssy166/FlowPlan.git
-cd FlowPlan
+git clone https://github.com:Tairan-Terrian/FlowAgent.git
+cd FlowAgent
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\Activate.ps1
 pip install -r requirements.txt
@@ -130,7 +126,7 @@ For model paths, generation settings, grounding, and evaluation details, see [`d
 ## 🗂️ Repository map
 
 ```text
-FlowPlan/
+FlowAgent/
 ├── data/          benchmark and replan datasets
 ├── docs/          reproducibility documentation
 ├── figures/       motivation and framework PDFs
