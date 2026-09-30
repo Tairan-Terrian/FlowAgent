@@ -37,7 +37,6 @@ FlowAgent helps an LLM choose the next executable tool call in a long-horizon ta
 
 <p align="center"><em>How planning, execution, grounding, and stopping fit together.</em></p>
 
-The original full-resolution figures are available as [motivation.pdf](figures/motivation.pdf) and [framework.pdf](figures/framework.pdf).
 
 ## ✨ What is FlowAgent?
 
